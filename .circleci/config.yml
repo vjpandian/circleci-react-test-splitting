@@ -7,7 +7,7 @@ jobs:
     build-and-test:
         docker:
             - image: cimg/node:17.3.1
-        parallelism: 1
+        parallelism: 6
         steps:
             - checkout
             - node/install-packages:
